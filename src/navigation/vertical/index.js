@@ -46,23 +46,28 @@ function processMenu() {
     href: 'https://github.com/AoiNode/',
     icon: 'GithubIcon',
   })
-chainMenus.push({
+  chainMenus.push({
     title: 'Trade',
     href: 'https://frontier.osmosis.zone/',
     icon: '/logo.svg',
   })
-chainMenus.push({
+  return chainMenus
+}
+
+chainMenus.push({ header: 'Planq Tools' })
+  if (isTestnet()) {
+
+  chainMenus.push({
     title: 'Chart',
     href: 'https://cosmospug.com/planq-chart/',
     icon: '/logo.svg',
   })
-chainMenus.push({
-    title: 'Planq Chart',
+  chainMenus.push({
+    title: 'Price',
     href: 'https://dexscreener.com/osmosis/898',
     icon: '/logo.svg',
   })
 
-  return chainMenus
+return chainMenus
 }
-
 export default processMenu()
