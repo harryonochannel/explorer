@@ -51,12 +51,9 @@ function processMenu() {
     href: 'https://frontier.osmosis.zone/',
     icon: '/logo.svg',
   })
-  return chainMenus
-}
-
+  
 chainMenus.push({ header: 'Planq Tools' })
-  if (isTestnet()) {
-
+  if (isTestnet()) {}
   chainMenus.push({
     title: 'Chart',
     href: 'https://cosmospug.com/planq-chart/',
