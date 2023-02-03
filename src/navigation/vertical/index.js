@@ -51,7 +51,6 @@ function processMenu() {
     href: 'https://frontier.osmosis.zone/',
     icon: 'ChromeIcon',
   })
-  }
  chainMenus.push({ header: 'PlanqTools' })
   chainMenus.push({
     title: 'Chart',
