@@ -52,8 +52,7 @@ function processMenu() {
     icon: '/logo.svg',
   })
   
-chainMenus.push({ header: 'Planq Tools' })
-  if (isTestnet()) {}
+chainMenus.push({ header: 'PlanqTools' })
   chainMenus.push({
     title: 'Chart',
     href: 'https://cosmospug.com/planq-chart/',
