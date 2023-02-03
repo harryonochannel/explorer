@@ -57,7 +57,6 @@ function processMenu() {
     href: 'https://cosmospug.com/planq-chart/',
     icon: 'ChromeIcon',
   })
-}
   chainMenus.push({
     title: 'Price',
     href: 'https://dexscreener.com/osmosis/898',
