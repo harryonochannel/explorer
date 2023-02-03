@@ -52,16 +52,16 @@ function processMenu() {
     icon: '/logo.svg',
   })
   
-chainMenus.push({ header: 'PlanqTools' })
+ chainMenus.push({ header: 'PlanqTools' })
   chainMenus.push({
     title: 'Chart',
     href: 'https://cosmospug.com/planq-chart/',
-    icon: '/logo.svg',
+    icon: 'ChromeIcon',
   })
   chainMenus.push({
     title: 'Price',
     href: 'https://dexscreener.com/osmosis/898',
-    icon: '/logo.svg',
+    icon: 'ChromeIcon',
   })
 
 return chainMenus
