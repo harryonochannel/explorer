@@ -62,7 +62,6 @@ function processMenu() {
     href: 'https://dexscreener.com/osmosis/898',
     icon: 'ChromeIcon',
   })
-}
 return chainMenus
 }
 export default processMenu()
