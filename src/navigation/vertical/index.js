@@ -51,7 +51,7 @@ function processMenu() {
     href: 'https://frontier.osmosis.zone/',
     icon: 'ChromeIcon',
   })
-  chainMenus.push({ header: 'planqtools' })
+  chainMenus.push({ header: 'PLANQ TOOLS' })
   chainMenus.push({
     title: 'Chart',
     href: 'https://cosmospug.com/planq-chart/',
