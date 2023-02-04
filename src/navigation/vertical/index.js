@@ -52,6 +52,19 @@ function processMenu() {
     icon: 'ChromeIcon',
   })
  chainMenus.push({ header: 'planqtools' })
+  if (isTestnet()) {
+    chainMenus.push({
+      title: 'Aoi Explorer',
+      href: 'https://explorer.aoinode.my.id',
+      icon: 'ChromeIcon',
+    })
+  } else {
+    chainMenus.push({
+      title: 'Website',
+      href: 'http://aoinode.my.id',
+      icon: 'LifeBuoyIcon',
+    })
+  }
   chainMenus.push({
     title: 'Chart',
     href: 'https://cosmospug.com/planq-chart/',
