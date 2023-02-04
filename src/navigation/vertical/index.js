@@ -51,20 +51,7 @@ function processMenu() {
     href: 'https://frontier.osmosis.zone/',
     icon: 'ChromeIcon',
   })
- chainMenus.push({ header: 'planqtools' })
-  if (isTestnet()) {
-    chainMenus.push({
-      title: 'Aoi Explorer',
-      href: 'https://explorer.aoinode.my.id',
-      icon: 'ChromeIcon',
-    })
-  } else {
-    chainMenus.push({
-      title: 'Website',
-      href: 'http://aoinode.my.id',
-      icon: 'LifeBuoyIcon',
-    })
-  }
+  chainMenus.push({ header: 'planqtools' })
   chainMenus.push({
     title: 'Chart',
     href: 'https://cosmospug.com/planq-chart/',
@@ -75,6 +62,6 @@ function processMenu() {
     href: 'https://dexscreener.com/osmosis/898',
     icon: 'ChromeIcon',
   })
-return chainMenus
+  return chainMenus
 }
 export default processMenu()
