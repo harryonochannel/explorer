@@ -19,49 +19,27 @@ function processMenu() {
       title: 'blockchains',
       children: blockchains,
       tag: `${blockchains.length}`,
-      icon: 'https://explorer.aoinode.my.id/logox.svg',
+      icon: 'ChromeIcon',
     })
   }
   chainMenus.push({ header: 'LINKS' })
   if (isTestnet()) {
     chainMenus.push({
-      title: 'Aoi Explorer',
-      href: 'https://explorer.aoinode.my.id',
-      icon: 'ChromeIcon',
+      title: 'Youtube',
+      href: 'https://www.youtube.com/@harryonochannel',
+      icon: 'YoutubeIcon',
     })
   } else {
-    chainMenus.push({
-      title: 'Website',
-      href: 'http://aoinode.my.id',
-      icon: 'LifeBuoyIcon',
-    })
-  }
   chainMenus.push({
     title: 'Twitter',
-    href: 'https://twitter.com/Aril031',
+    href: 'https://twitter.com/kangdudung19',
     icon: 'TwitterIcon',
   })
   chainMenus.push({
     title: 'Github Ex',
-    href: 'https://github.com/AoiNode/',
+    href: 'https://github.com/harryonochannel/',
     icon: 'GithubIcon',
-  })
-  chainMenus.push({
-    title: 'Trade',
-    href: 'https://frontier.osmosis.zone/',
-    icon: 'ChromeIcon',
-  })
-  chainMenus.push({ header: 'PLANQ TOOLS' })
-  chainMenus.push({
-    title: 'Chart',
-    href: 'https://cosmospug.com/planq-chart/',
-    icon: 'ChromeIcon',
-  })
-  chainMenus.push({
-    title: 'Price',
-    href: 'https://dexscreener.com/osmosis/898',
-    icon: 'ChromeIcon',
-  })
+  }}
   return chainMenus
 }
 export default processMenu()
