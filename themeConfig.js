@@ -9,7 +9,7 @@ export const $themeBreakpoints = {}
 // APP CONFIG
 export const $themeConfig = {
   app: {
-    appName: 'AoiNode', // Will update name in navigation menu (Branding)
+    appName: 'Hccnoderun', // Will update name in navigation menu (Branding)
     // eslint-disable-next-line global-require
     appLogoImage: '/logox.svg', // Will update logo in navigation menu (Branding)
   },
