@@ -30,6 +30,12 @@ function processMenu() {
       icon: 'YoutubeIcon',
     })
   } else {
+    chainMenus.push({
+      title: 'Youtube',
+      href: 'https://www.youtube.com/@harryonochannel',
+      icon: 'YoutubeIcon',
+    })
+  }
   chainMenus.push({
     title: 'Twitter',
     href: 'https://twitter.com/kangdudung19',
