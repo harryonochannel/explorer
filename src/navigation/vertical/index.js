@@ -45,7 +45,7 @@ function processMenu() {
     title: 'Github Ex',
     href: 'https://github.com/harryonochannel/',
     icon: 'GithubIcon',
-  }}
+  })
   return chainMenus
 }
 export default processMenu()
