@@ -2,7 +2,7 @@
   <div>
     <b-card
       v-if="pingVals && pingVals.length > 0"
-      title="Stake with Aoi Node"
+      title="Stake with Hccnoderun"
       class="overflow-auto"
     >
       <b-table
